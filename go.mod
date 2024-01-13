@@ -2,7 +2,10 @@ module godemo
 
 go 1.21.6
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/micmonay/keybd_event v1.1.2
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
